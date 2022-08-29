@@ -4,9 +4,7 @@
   [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
 
   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=Gradient&hide_border=true)
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=dracula&hide_border=true)
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=gruvbox&hide_border=true) <br>
+  <br>
   [![lima1016's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lima1016&show_icons=true&hide_border=true&title_color=auto&icon_color=004386&layout=compact&theme=synthwave)](https://github.com/lima1016)
 
 🌱 I’m currently learning <br>
@@ -21,7 +19,9 @@
 
 <!--
 **lima1016/lima1016** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=Gradient&hide_border=true)
+  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=dracula&hide_border=true)
+  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=gruvbox&hide_border=true)
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
