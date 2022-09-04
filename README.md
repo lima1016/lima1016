@@ -7,7 +7,7 @@
   <br>
   [![lima1016's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lima1016&show_icons=true&hide_border=true&title_color=auto&icon_color=004386&layout=compact&theme=synthwave)](https://github.com/lima1016)
 
-</b> 🌱 I’m currently learning </b> <br><br>
+</b> 🌱 I’m currently learning! </b> <br><br>
 <img src="https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
 <img src="https://img.shields.io/badge/Apachekafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
