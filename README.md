@@ -3,8 +3,8 @@
   ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%20World!&fontSize=70)
   [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
 
-<!--   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true) -->
-<!--   <br> -->
+  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
+  <br>
 <!--   [![lima1016's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lima1016&show_icons=true&hide_border=true&title_color=auto&icon_color=004386&layout=compact&theme=synthwave)](https://github.com/lima1016) -->
 
 </b> 🌱 I’m currently learning! </b> <br><br>
