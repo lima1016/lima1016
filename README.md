@@ -25,8 +25,12 @@
 <img src="https://img.shields.io/badge/ApacheMaven-C71A36?style=flat-square&logo=ApacheMaven&logoColor=white"/>
 <img src="https://img.shields.io/badge/IntelliJIDEA-000000?style=flat-square&logo=IntelliJIDEA&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
-</div>
 
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/lima1016"/>
+</a>
+
+</div>
 <!--
 **lima1016/lima1016** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=Gradient&hide_border=true)
