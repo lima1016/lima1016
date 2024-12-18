@@ -8,7 +8,7 @@ import Parser from "rss-parser";
 let text = `
 <div align="center">
 
-  ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%20World!&fontSize=70)
+  ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%Lima!&fontSize=70)
   [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
 
   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
@@ -38,15 +38,6 @@ let text = `
 </a>
 
 </div>
-
-- 🔭 I’m currently working on ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
--- ⚡ Fun fact: ...
--->
 
 `;
 
