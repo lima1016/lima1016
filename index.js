@@ -9,13 +9,12 @@ let text = `
 <div align="center">
 
   ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%Lima!&fontSize=70)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
+  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
   <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/farms/lima1016"/>
   </a>
 
-  [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
-
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
   <br>
 
 </b> 🌱 I’m currently learning! </b> <br><br>
@@ -61,7 +60,7 @@ const parser = new Parser({
         console.log(`${i + 1}번째 게시물`);
         console.log(`추가될 제목: ${title}`);
         console.log(`추가될 링크: ${link}`);
-        text += `<li>✅ <a href='${link}' target='_blank'>${title}</a></li>`;
+        text += `✅ <a href='${link}' target='_blank'>${title}</a>`;
     }
 
     text += `</ul>`;
