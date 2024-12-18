@@ -2,8 +2,8 @@
   "name": "lima1016",
   "version": "1.0.0",
   "description": "<div align=\"center\">",
-  "main": "index.js", 
-  "type":"module",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

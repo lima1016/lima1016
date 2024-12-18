@@ -1,3 +1,4 @@
+
 <div align="center">
 
   ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%20World!&fontSize=70)
@@ -5,7 +6,6 @@
 
   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
   <br>
-<!--   [![lima1016's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lima1016&show_icons=true&hide_border=true&title_color=auto&icon_color=004386&layout=compact&theme=synthwave)](https://github.com/lima1016) -->
 
 </b> 🌱 I’m currently learning! </b> <br><br>
 <img src="https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
@@ -31,12 +31,6 @@
 </a>
 
 </div>
-<!--
-**lima1016/lima1016** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=Gradient&hide_border=true)
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=dracula&hide_border=true)
-  ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=gruvbox&hide_border=true)
-Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
 - 👯 I’m looking to collaborate on ...
@@ -46,3 +40,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 -- ⚡ Fun fact: ...
 -->
+
+<ul><li><a href='https://lima1016.tistory.com/134' target='_blank'>[STUDY] 2주차</a></li><li><a href='https://lima1016.tistory.com/128' target='_blank'>[STUDY] 1주차</a></li><li><a href='https://lima1016.tistory.com/127' target='_blank'>[JVM 밑바닥] 7장  클래스 로딩 메커니즘</a></li><li><a href='https://lima1016.tistory.com/126' target='_blank'>[JVM 밑바닥] 6장 클래스 파일</a></li><li><a href='https://lima1016.tistory.com/125' target='_blank'>[JVM 밑바닥] 3장 가비지 컬렉터와 메모리 할당 전략 -1</a></li><li><a href='https://lima1016.tistory.com/124' target='_blank'>[JVM 밑바닥] 1장. 자바, 2장 자동 메모리 관리</a></li><li><a href='https://lima1016.tistory.com/123' target='_blank'>세상에나....</a></li><li><a href='https://lima1016.tistory.com/121' target='_blank'>나... 블로그 했었지... 맞다...</a></li><li><a href='https://lima1016.tistory.com/119' target='_blank'>[CISCO NETWORK] PART 1 - OSI 7 Layer</a></li><li><a href='https://lima1016.tistory.com/118' target='_blank'>[CISCO NETWORK] PART 1</a></li></ul>
