@@ -44,32 +44,32 @@ My Tistory... 😎
 `;
 
 // rss-parser 생성
-const Parser = require('rss-parser');
-const { writeFileSync } = require('fs');
-
 const parser = new Parser({
     headers: {
         Accept: 'application/rss+xml, application/xml, text/xml; q=0.1',
-    }
-});
+    }});
 
 (async () => {
+
+    // 피드 목록
     const feed = await parser.parseURL('https://lima1016.tistory.com/rss'); // 본인의 블로그 주소
     
-    let text = '';
+    text += `<ul>`;
     
     // 최신 10개의 글의 제목과 링크를 가져온 후 text에 추가
     for (let i = 0; i < 10; i++) {
-        const { title, link } = feed.items[i];
+        const {title, link} = feed.items[i];
         console.log(`${i + 1}번째 게시물`);
         console.log(`추가될 제목: ${title}`);
         console.log(`추가될 링크: ${link}`);
-        text += `✅ <a href='${link}' target='_blank'>${title}</a>\n`;
+        text += `<li>✅ <a href='${link}' target='_blank'>${title}</a></li>`;
     }
+
+    text += `</ul>`;
     
     // README.md 파일 생성
     writeFileSync('README.md', text, 'utf8', (e) => {
-        if (e) console.log(e);
-    });
+        console.log(e);
+    })
     console.log('업데이트 완료');
 })();
