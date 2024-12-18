@@ -2,6 +2,10 @@
 <div align="center">
 
   ![header](https://capsule-render.vercel.app/api?type=cylinder&color=auto&height=100&section=header&text=Hello%Lima!&fontSize=70)
+  <a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/lima1016"/>
+  </a>
+
   [![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
 
   ![lima1016's github stats](https://github-readme-stats.vercel.app/api?username=lima1016&show_icons=true&theme=synthwave&hide_border=true)
@@ -26,10 +30,7 @@
 <img src="https://img.shields.io/badge/IntelliJIDEA-000000?style=flat-square&logo=IntelliJIDEA&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
 
-<a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/lima1016"/>
-</a>
-
+</b> My Tistory... 😎 </b>
 </div>
 
-<ul><li><a href='https://lima1016.tistory.com/134' target='_blank'>[STUDY] 2주차</a></li><li><a href='https://lima1016.tistory.com/128' target='_blank'>[STUDY] 1주차</a></li><li><a href='https://lima1016.tistory.com/127' target='_blank'>[JVM 밑바닥] 7장  클래스 로딩 메커니즘</a></li><li><a href='https://lima1016.tistory.com/126' target='_blank'>[JVM 밑바닥] 6장 클래스 파일</a></li><li><a href='https://lima1016.tistory.com/125' target='_blank'>[JVM 밑바닥] 3장 가비지 컬렉터와 메모리 할당 전략 -1</a></li><li><a href='https://lima1016.tistory.com/124' target='_blank'>[JVM 밑바닥] 1장. 자바, 2장 자동 메모리 관리</a></li><li><a href='https://lima1016.tistory.com/123' target='_blank'>세상에나....</a></li><li><a href='https://lima1016.tistory.com/121' target='_blank'>나... 블로그 했었지... 맞다...</a></li><li><a href='https://lima1016.tistory.com/119' target='_blank'>[CISCO NETWORK] PART 1 - OSI 7 Layer</a></li><li><a href='https://lima1016.tistory.com/118' target='_blank'>[CISCO NETWORK] PART 1</a></li></ul>
+<ul><li>✅ <a href='https://lima1016.tistory.com/134' target='_blank'>[STUDY] 2주차</a></li><li>✅ <a href='https://lima1016.tistory.com/128' target='_blank'>[STUDY] 1주차</a></li><li>✅ <a href='https://lima1016.tistory.com/127' target='_blank'>[JVM 밑바닥] 7장  클래스 로딩 메커니즘</a></li><li>✅ <a href='https://lima1016.tistory.com/126' target='_blank'>[JVM 밑바닥] 6장 클래스 파일</a></li><li>✅ <a href='https://lima1016.tistory.com/125' target='_blank'>[JVM 밑바닥] 3장 가비지 컬렉터와 메모리 할당 전략 -1</a></li><li>✅ <a href='https://lima1016.tistory.com/124' target='_blank'>[JVM 밑바닥] 1장. 자바, 2장 자동 메모리 관리</a></li><li>✅ <a href='https://lima1016.tistory.com/123' target='_blank'>세상에나....</a></li><li>✅ <a href='https://lima1016.tistory.com/121' target='_blank'>나... 블로그 했었지... 맞다...</a></li><li>✅ <a href='https://lima1016.tistory.com/119' target='_blank'>[CISCO NETWORK] PART 1 - OSI 7 Layer</a></li><li>✅ <a href='https://lima1016.tistory.com/118' target='_blank'>[CISCO NETWORK] PART 1</a></li></ul>
