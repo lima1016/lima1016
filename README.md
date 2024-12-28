@@ -7,7 +7,6 @@
   <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/farms/lima1016"/>
   </a>
-
   <br>
 
 </b> 🌱 I’m currently learning! </b> <br><br>
