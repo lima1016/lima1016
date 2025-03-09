@@ -5,7 +5,7 @@
 <a href="https://github.com/devxb/gitanimals">
 <img src="https://render.gitanimals.org/farms/lima1016"/>
 </a>
-[![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&row=1)](https://github.com/lima1016/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=lima1016&theme=dracula)](https://github.com/lima1016/github-profile-trophy)
 
 <br>   
   
