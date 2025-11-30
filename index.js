@@ -76,3 +76,4 @@ const parser = new Parser({
     })
     console.log('업데이트 완료');
 })();
+
