@@ -7,59 +7,74 @@
 <line x1="0" x2="860" y1="38" y2="38" stroke="#30363d"/>
 <circle cx="22" cy="19" r="6" fill="#ff5f56"/><circle cx="42" cy="19" r="6" fill="#ffbd2e"/><circle cx="62" cy="19" r="6" fill="#27c93f"/>
 <text x="430" y="24" font-size="12" fill="#7d8590" text-anchor="middle">lima@github: ~</text>
-<text x="32" y="72" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">neofetch</tspan></text>
-<text x="32" y="120" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve"> _     ___ __  __    _    </text>
-<text x="32" y="139" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |   |_ _|  \/  |  / \   </text>
-<text x="32" y="158" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |    | || |\/| | / _ \  </text>
-<text x="32" y="177" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |___ | || |  | |/ ___ \ </text>
-<text x="32" y="196" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">|_____|___|_|  |_/_/   \_\</text>
-<text x="322" y="82" font-size="14" font-weight="600"><tspan fill="#3fb950">lima</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#3fb950">github</tspan></text>
-<text x="322" y="100" font-size="14" fill="#7d8590">────────────────────────</text>
-<text x="322" y="124" font-size="14"><tspan fill="#e3b341">Role</tspan><tspan x="394" fill="#e6edf3">Backend Engineer</tspan></text>
-<text x="322" y="148" font-size="14"><tspan fill="#e3b341">Uptime</tspan><tspan x="394" fill="#e6edf3">5 years, 11 months</tspan></text>
-<text x="322" y="172" font-size="14"><tspan fill="#e3b341">Focus</tspan><tspan x="394" fill="#e6edf3">Event-driven · MSA</tspan></text>
-<text x="322" y="196" font-size="14"><tspan fill="#e3b341">Study</tspan><tspan x="394" fill="#e6edf3">Georgia Tech OMSCS · AI</tspan></text>
-<text x="322" y="220" font-size="14"><tspan fill="#e3b341">Blog</tspan><tspan x="394" fill="#58a6ff">lima1016.tistory.com</tspan></text>
-<rect x="322" y="230" width="34" height="14" fill="#ff7b72"/>
-<rect x="356" y="230" width="34" height="14" fill="#e3b341"/>
-<rect x="390" y="230" width="34" height="14" fill="#3fb950"/>
-<rect x="424" y="230" width="34" height="14" fill="#58a6ff"/>
-<rect x="458" y="230" width="34" height="14" fill="#d2a8ff"/>
-<rect x="492" y="230" width="34" height="14" fill="#7d8590"/>
-<line x1="0" x2="860" y1="264" y2="264" stroke="#21262d"/>
-<text x="32" y="294" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 기술 스택</tspan></text>
-<text x="32" y="318" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">cat stack.yml</tspan></text>
-<text x="32" y="342" font-size="14" xml:space="preserve"><tspan fill="#ff7b72" font-weight="600">language:</tspan><tspan x="132.8" fill="#ff7b72">Java</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ff7b72">Python</tspan></text>
-<text x="32" y="366" font-size="14" xml:space="preserve"><tspan fill="#3fb950" font-weight="600">framework:</tspan><tspan x="132.8" fill="#3fb950">Spring Boot</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">Spring Cloud</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">MyBatis</tspan></text>
-<text x="32" y="390" font-size="14" xml:space="preserve"><tspan fill="#e3b341" font-weight="600">messaging:</tspan><tspan x="132.8" fill="#e3b341">Kafka</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#e3b341">RSocket</tspan></text>
-<text x="32" y="414" font-size="14" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">database:</tspan><tspan x="132.8" fill="#58a6ff">PostgreSQL</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">Redis</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">MongoDB</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">OpenSearch</tspan></text>
-<text x="32" y="438" font-size="14" xml:space="preserve"><tspan fill="#d2a8ff" font-weight="600">devops:</tspan><tspan x="132.8" fill="#d2a8ff">Docker</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">GitLab CI/CD</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Jenkins</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Nginx</tspan></text>
-<text x="32" y="462" font-size="14" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">tools:</tspan><tspan x="132.8" fill="#ffa657">IntelliJ</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Postman</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Jira</tspan></text>
-<line x1="0" x2="860" y1="478" y2="478" stroke="#21262d"/>
-<text x="32" y="508" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 경력</tspan></text>
-<text x="32" y="532" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">git log --oneline career</tspan></text>
-<text x="32" y="556" font-size="14" xml:space="preserve"><tspan fill="#e3b341">a3f9c21</tspan><tspan x="107.60000000000001" fill="#58a6ff">(HEAD)</tspan><tspan x="174.8" fill="#e6edf3">Backend Engineer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">GIT</tspan></text>
-<text x="32" y="580" font-size="14" xml:space="preserve"><tspan fill="#e3b341">7b2e4d0</tspan><tspan x="174.8" fill="#e6edf3">EDR Backend</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">AhnLab</tspan></text>
-<text x="32" y="604" font-size="14" xml:space="preserve"><tspan fill="#e3b341">1c8a5f3</tspan><tspan x="174.8" fill="#e6edf3">Backend Developer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">Gaeasoft</tspan></text>
-<line x1="0" x2="860" y1="620" y2="620" stroke="#21262d"/>
-<text x="32" y="650" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 프로젝트</tspan></text>
-<text x="32" y="674" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">docker ps</tspan></text>
-<text x="32" y="698" font-size="14" xml:space="preserve"><tspan fill="#7d8590">NAME</tspan><tspan x="158" fill="#7d8590">STATUS</tspan><tspan x="267.20000000000005" fill="#7d8590">DESCRIPTION</tspan></text>
-<text x="32" y="722" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">cosmos</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">NASA data platform · MSA</tspan></text>
-<text x="32" y="746" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">bull-talk</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Real-time stock chat</tspan></text>
-<text x="32" y="770" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">eat-burn</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Food vision + LLM nutrition</tspan></text>
-<text x="32" y="794" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">study_alone</tspan><tspan x="158" fill="#e3b341">● Learning</tspan><tspan x="267.20000000000005" fill="#e6edf3">Always studying</tspan></text>
-<line x1="0" x2="860" y1="810" y2="810" stroke="#21262d"/>
-<text x="32" y="840" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 최근 블로그 글 (자동 갱신)</tspan></text>
-<text x="32" y="864" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">tail -n 5 blog.log</tspan></text>
-<text x="32" y="888" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.08</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; AI Agent 구조-2</tspan></text>
-<text x="32" y="912" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.05</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; Agent 구조 개념-1</tspan></text>
-<text x="32" y="936" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.01</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터09 - 실습과 프로젝트</tspan></text>
-<text x="32" y="960" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.28</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터08 - 과적합과 일반</tspan></text>
-<text x="32" y="984" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.24</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터07 - 대표 알고리즘</tspan></text>
-<line x1="0" x2="860" y1="1000" y2="1000" stroke="#21262d"/>
-<text x="32" y="1030" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text>
-<rect x="65.6" y="1017" width="8.4" height="17" fill="#e6edf3"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<g opacity="0"><text x="32" y="72" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="0.40s" fill="freeze"/></g>
+<clipPath id="c0"><rect x="65.6" y="56" height="22" width="0"><animate attributeName="width" values="0.0;8.7;17.5;26.2;34.9;43.7;52.4;61.2;860" calcMode="discrete" begin="0.40s" dur="0.44s" fill="freeze"/></rect></clipPath>
+<text x="65.6" y="72" font-size="14" fill="#e6edf3" clip-path="url(#c0)" xml:space="preserve">neofetch</text>
+<rect y="59" width="8.4" height="17" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="1" begin="0.40s"/><animate attributeName="x" values="65.6;74.3;83.1;91.8;100.5;109.3;118.0;126.8;135.5" calcMode="discrete" begin="0.40s" dur="0.49s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.05s" fill="freeze"/></rect>
+<g opacity="0"><text x="32" y="120" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve"> _     ___ __  __    _    </text><set attributeName="opacity" to="1" begin="1.19s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="139" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |   |_ _|  \/  |  / \   </text><set attributeName="opacity" to="1" begin="1.26s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="158" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |    | || |\/| | / _ \  </text><set attributeName="opacity" to="1" begin="1.33s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="177" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |___ | || |  | |/ ___ \ </text><set attributeName="opacity" to="1" begin="1.40s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="196" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">|_____|___|_|  |_/_/   \_\</text><set attributeName="opacity" to="1" begin="1.47s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="82" font-size="14" font-weight="600"><tspan fill="#3fb950">lima</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#3fb950">github</tspan></text><set attributeName="opacity" to="1" begin="1.19s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="100" font-size="14" fill="#7d8590">────────────────────────</text><set attributeName="opacity" to="1" begin="1.26s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="124" font-size="14"><tspan fill="#e3b341">Role</tspan><tspan x="394" fill="#e6edf3">Backend Engineer</tspan></text><set attributeName="opacity" to="1" begin="1.33s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="148" font-size="14"><tspan fill="#e3b341">Uptime</tspan><tspan x="394" fill="#e6edf3">5 years, 11 months</tspan></text><set attributeName="opacity" to="1" begin="1.40s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="172" font-size="14"><tspan fill="#e3b341">Focus</tspan><tspan x="394" fill="#e6edf3">Event-driven · MSA</tspan></text><set attributeName="opacity" to="1" begin="1.47s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="196" font-size="14"><tspan fill="#e3b341">Study</tspan><tspan x="394" fill="#e6edf3">Georgia Tech OMSCS · AI</tspan></text><set attributeName="opacity" to="1" begin="1.54s" fill="freeze"/></g>
+<g opacity="0"><text x="322" y="220" font-size="14"><tspan fill="#e3b341">Blog</tspan><tspan x="394" fill="#58a6ff">lima1016.tistory.com</tspan></text><set attributeName="opacity" to="1" begin="1.61s" fill="freeze"/></g>
+<g opacity="0"><rect x="322" y="230" width="34" height="14" fill="#ff7b72"/><set attributeName="opacity" to="1" begin="1.68s" fill="freeze"/></g>
+<g opacity="0"><rect x="356" y="230" width="34" height="14" fill="#e3b341"/><set attributeName="opacity" to="1" begin="1.72s" fill="freeze"/></g>
+<g opacity="0"><rect x="390" y="230" width="34" height="14" fill="#3fb950"/><set attributeName="opacity" to="1" begin="1.76s" fill="freeze"/></g>
+<g opacity="0"><rect x="424" y="230" width="34" height="14" fill="#58a6ff"/><set attributeName="opacity" to="1" begin="1.80s" fill="freeze"/></g>
+<g opacity="0"><rect x="458" y="230" width="34" height="14" fill="#d2a8ff"/><set attributeName="opacity" to="1" begin="1.84s" fill="freeze"/></g>
+<g opacity="0"><rect x="492" y="230" width="34" height="14" fill="#7d8590"/><set attributeName="opacity" to="1" begin="1.88s" fill="freeze"/></g>
+<g opacity="0"><line x1="0" x2="860" y1="264" y2="264" stroke="#21262d"/><set attributeName="opacity" to="1" begin="2.13s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="294" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 기술 스택</tspan></text><set attributeName="opacity" to="1" begin="2.13s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="318" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="2.13s" fill="freeze"/></g>
+<clipPath id="c1"><rect x="65.6" y="302" height="22" width="0"><animate attributeName="width" values="0.0;8.7;17.5;26.2;34.9;43.7;52.4;61.2;69.9;78.6;87.4;96.1;104.8;860" calcMode="discrete" begin="2.13s" dur="0.71s" fill="freeze"/></rect></clipPath>
+<text x="65.6" y="318" font-size="14" fill="#e6edf3" clip-path="url(#c1)" xml:space="preserve">cat stack.yml</text>
+<rect y="305" width="8.4" height="17" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="1" begin="2.13s"/><animate attributeName="x" values="65.6;74.3;83.1;91.8;100.5;109.3;118.0;126.8;135.5;144.2;153.0;161.7;170.4;179.2" calcMode="discrete" begin="2.13s" dur="0.77s" fill="freeze"/><set attributeName="opacity" to="0" begin="3.06s" fill="freeze"/></rect>
+<g opacity="0"><text x="32" y="342" font-size="14" xml:space="preserve"><tspan fill="#ff7b72" font-weight="600">language:</tspan><tspan x="132.8" fill="#ff7b72">Java</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ff7b72">Python</tspan></text><set attributeName="opacity" to="1" begin="3.20s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="366" font-size="14" xml:space="preserve"><tspan fill="#3fb950" font-weight="600">framework:</tspan><tspan x="132.8" fill="#3fb950">Spring Boot</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">Spring Cloud</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">MyBatis</tspan></text><set attributeName="opacity" to="1" begin="3.27s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="390" font-size="14" xml:space="preserve"><tspan fill="#e3b341" font-weight="600">messaging:</tspan><tspan x="132.8" fill="#e3b341">Kafka</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#e3b341">RSocket</tspan></text><set attributeName="opacity" to="1" begin="3.33s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="414" font-size="14" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">database:</tspan><tspan x="132.8" fill="#58a6ff">PostgreSQL</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">Redis</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">MongoDB</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">OpenSearch</tspan></text><set attributeName="opacity" to="1" begin="3.40s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="438" font-size="14" xml:space="preserve"><tspan fill="#d2a8ff" font-weight="600">devops:</tspan><tspan x="132.8" fill="#d2a8ff">Docker</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">GitLab CI/CD</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Jenkins</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Nginx</tspan></text><set attributeName="opacity" to="1" begin="3.47s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="462" font-size="14" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">tools:</tspan><tspan x="132.8" fill="#ffa657">IntelliJ</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Postman</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Jira</tspan></text><set attributeName="opacity" to="1" begin="3.54s" fill="freeze"/></g>
+<g opacity="0"><line x1="0" x2="860" y1="478" y2="478" stroke="#21262d"/><set attributeName="opacity" to="1" begin="4.06s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="508" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 경력</tspan></text><set attributeName="opacity" to="1" begin="4.06s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="532" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="4.06s" fill="freeze"/></g>
+<clipPath id="c2"><rect x="65.6" y="516" height="22" width="0"><animate attributeName="width" values="0.0;8.7;17.5;26.2;34.9;43.7;52.4;61.2;69.9;78.6;87.4;96.1;104.8;113.6;122.3;131.0;139.8;148.5;157.2;166.0;174.7;183.5;192.2;200.9;860" calcMode="discrete" begin="4.06s" dur="1.32s" fill="freeze"/></rect></clipPath>
+<text x="65.6" y="532" font-size="14" fill="#e6edf3" clip-path="url(#c2)" xml:space="preserve">git log --oneline career</text>
+<rect y="519" width="8.4" height="17" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="1" begin="4.06s"/><animate attributeName="x" values="65.6;74.3;83.1;91.8;100.5;109.3;118.0;126.8;135.5;144.2;153.0;161.7;170.4;179.2;187.9;196.6;205.4;214.1;222.8;231.6;240.3;249.1;257.8;266.5;275.3" calcMode="discrete" begin="4.06s" dur="1.38s" fill="freeze"/><set attributeName="opacity" to="0" begin="5.59s" fill="freeze"/></rect>
+<g opacity="0"><text x="32" y="556" font-size="14" xml:space="preserve"><tspan fill="#e3b341">a3f9c21</tspan><tspan x="107.60000000000001" fill="#58a6ff">(HEAD)</tspan><tspan x="174.8" fill="#e6edf3">Backend Engineer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">GIT</tspan></text><set attributeName="opacity" to="1" begin="5.73s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="580" font-size="14" xml:space="preserve"><tspan fill="#e3b341">7b2e4d0</tspan><tspan x="174.8" fill="#e6edf3">EDR Backend</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">AhnLab</tspan></text><set attributeName="opacity" to="1" begin="5.80s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="604" font-size="14" xml:space="preserve"><tspan fill="#e3b341">1c8a5f3</tspan><tspan x="174.8" fill="#e6edf3">Backend Developer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">Gaeasoft</tspan></text><set attributeName="opacity" to="1" begin="5.88s" fill="freeze"/></g>
+<g opacity="0"><line x1="0" x2="860" y1="620" y2="620" stroke="#21262d"/><set attributeName="opacity" to="1" begin="6.40s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="650" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 프로젝트</tspan></text><set attributeName="opacity" to="1" begin="6.40s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="674" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="6.40s" fill="freeze"/></g>
+<clipPath id="c3"><rect x="65.6" y="658" height="22" width="0"><animate attributeName="width" values="0.0;8.7;17.5;26.2;34.9;43.7;52.4;61.2;69.9;860" calcMode="discrete" begin="6.40s" dur="0.49s" fill="freeze"/></rect></clipPath>
+<text x="65.6" y="674" font-size="14" fill="#e6edf3" clip-path="url(#c3)" xml:space="preserve">docker ps</text>
+<rect y="661" width="8.4" height="17" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="1" begin="6.40s"/><animate attributeName="x" values="65.6;74.3;83.1;91.8;100.5;109.3;118.0;126.8;135.5;144.2" calcMode="discrete" begin="6.40s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="7.10s" fill="freeze"/></rect>
+<g opacity="0"><text x="32" y="698" font-size="14" xml:space="preserve"><tspan fill="#7d8590">NAME</tspan><tspan x="158" fill="#7d8590">STATUS</tspan><tspan x="267.20000000000005" fill="#7d8590">DESCRIPTION</tspan></text><set attributeName="opacity" to="1" begin="7.24s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="722" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">cosmos</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">NASA data platform · MSA</tspan></text><set attributeName="opacity" to="1" begin="7.31s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="746" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">bull-talk</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Real-time stock chat</tspan></text><set attributeName="opacity" to="1" begin="7.38s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="770" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">eat-burn</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Food vision + LLM nutrition</tspan></text><set attributeName="opacity" to="1" begin="7.45s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="794" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">study_alone</tspan><tspan x="158" fill="#e3b341">● Learning</tspan><tspan x="267.20000000000005" fill="#e6edf3">Always studying</tspan></text><set attributeName="opacity" to="1" begin="7.52s" fill="freeze"/></g>
+<g opacity="0"><line x1="0" x2="860" y1="810" y2="810" stroke="#21262d"/><set attributeName="opacity" to="1" begin="8.04s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="840" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 최근 블로그 글 (자동 갱신)</tspan></text><set attributeName="opacity" to="1" begin="8.04s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="864" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="8.04s" fill="freeze"/></g>
+<clipPath id="c4"><rect x="65.6" y="848" height="22" width="0"><animate attributeName="width" values="0.0;8.7;17.5;26.2;34.9;43.7;52.4;61.2;69.9;78.6;87.4;96.1;104.8;113.6;122.3;131.0;139.8;148.5;860" calcMode="discrete" begin="8.04s" dur="0.99s" fill="freeze"/></rect></clipPath>
+<text x="65.6" y="864" font-size="14" fill="#e6edf3" clip-path="url(#c4)" xml:space="preserve">tail -n 5 blog.log</text>
+<rect y="851" width="8.4" height="17" fill="#e6edf3" opacity="0"><set attributeName="opacity" to="1" begin="8.04s"/><animate attributeName="x" values="65.6;74.3;83.1;91.8;100.5;109.3;118.0;126.8;135.5;144.2;153.0;161.7;170.4;179.2;187.9;196.6;205.4;214.1;222.8" calcMode="discrete" begin="8.04s" dur="1.04s" fill="freeze"/><set attributeName="opacity" to="0" begin="9.24s" fill="freeze"/></rect>
+<g opacity="0"><text x="32" y="888" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.08</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; AI Agent 구조-2</tspan></text><set attributeName="opacity" to="1" begin="9.38s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="912" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.05</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; Agent 구조 개념-1</tspan></text><set attributeName="opacity" to="1" begin="9.45s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="936" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.01</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터09 - 실습과 프로젝트</tspan></text><set attributeName="opacity" to="1" begin="9.52s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="960" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.28</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터08 - 과적합과 일반</tspan></text><set attributeName="opacity" to="1" begin="9.59s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="984" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.24</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터07 - 대표 알고리즘</tspan></text><set attributeName="opacity" to="1" begin="9.66s" fill="freeze"/></g>
+<g opacity="0"><line x1="0" x2="860" y1="1000" y2="1000" stroke="#21262d"/><set attributeName="opacity" to="1" begin="10.18s" fill="freeze"/></g>
+<g opacity="0"><text x="32" y="1030" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text><set attributeName="opacity" to="1" begin="10.18s" fill="freeze"/></g>
+<rect x="65.6" y="1017" width="8.4" height="17" fill="#e6edf3" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="10.18s" repeatCount="indefinite"/></rect>
 </g>
 <rect x="0.5" y="0.5" width="859" height="1055" rx="12" fill="none" stroke="#30363d"/>
 </svg>

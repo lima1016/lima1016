@@ -81,12 +81,24 @@ function fmtDate(d) {
 const W = 860, PADX = 32, LH = 24, CH = 8.4; // CH: monospace 문자 폭(14px 기준) 추정
 const FONT = `ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'D2Coding', monospace`;
 
+// 애니메이션 타이밍 (초)
+const TYPE_SPEED = 0.055;  // 명령어 한 글자
+const AFTER_CMD = 0.35;    // 엔터 후 출력까지
+const LINE_GAP = 0.07;     // 출력 줄 사이
+const AFTER_BLOCK = 0.45;  // 섹션 사이
+
 function buildSvg(posts) {
   const out = [];
   let y = 0;
+  let T = 0.4; // 현재 시점
+  let clipId = 0;
 
-  // <text> 한 줄: segs = [[text, color, {x, bold}], ...]
-  const line = (segs, opts = {}) => {
+  // 시점 at 에 나타나는 요소
+  const show = (el, at = T) =>
+    out.push(`<g opacity="0">${el}<set attributeName="opacity" to="1" begin="${at.toFixed(2)}s" fill="freeze"/></g>`);
+
+  // segs = [[text, color, {x, bold}], ...]
+  const textEl = (segs, opts = {}) => {
     const x0 = opts.x ?? PADX;
     const size = opts.size ?? 14;
     const parts = segs.map(([t, color, o = {}]) => {
@@ -94,11 +106,33 @@ function buildSvg(posts) {
       const w = o.bold ? ' font-weight="600"' : '';
       return `<tspan${xAttr} fill="${color}"${w}>${esc(t)}</tspan>`;
     }).join('');
-    out.push(`<text x="${x0}" y="${y}" font-size="${size}" xml:space="preserve">${parts}</text>`);
+    return `<text x="${x0}" y="${y}" font-size="${size}" xml:space="preserve">${parts}</text>`;
   };
-  const prompt = (cmd) => line([['➜ ', C.green], ['~ ', C.blue], [cmd, C.fg]]);
-  const comment = (t) => line([[`# ${t}`, C.muted]], { size: 12 });
-  const divider = () => { y += 16; out.push(`<line x1="0" x2="${W}" y1="${y}" y2="${y}" stroke="${C.line}"/>`); y += 30; };
+  const line = (segs, opts) => { show(textEl(segs, opts)); T += LINE_GAP; };
+
+  // 프롬프트 + 한 글자씩 타이핑되는 명령어
+  const prompt = (cmd) => {
+    show(textEl([['➜ ', C.green], ['~ ', C.blue]]));
+    const x = PADX + 4 * CH, id = `c${clipId++}`;
+    const n = [...cmd].length, dur = n * TYPE_SPEED;
+    const values = Array.from({ length: n + 1 }, (_, i) => (i === n ? W : (i * CH * 1.04).toFixed(1))).join(';');
+    out.push(`<clipPath id="${id}"><rect x="${x}" y="${y - 16}" height="22" width="0">` +
+      `<animate attributeName="width" values="${values}" calcMode="discrete" begin="${T.toFixed(2)}s" dur="${dur.toFixed(2)}s" fill="freeze"/></rect></clipPath>`);
+    out.push(`<text x="${x}" y="${y}" font-size="14" fill="${C.fg}" clip-path="url(#${id})" xml:space="preserve">${esc(cmd)}</text>`);
+    // 타이핑 중 커서
+    out.push(`<rect y="${y - 13}" width="${CH}" height="17" fill="${C.fg}" opacity="0">` +
+      `<set attributeName="opacity" to="1" begin="${T.toFixed(2)}s"/>` +
+      `<animate attributeName="x" values="${Array.from({ length: n + 1 }, (_, i) => (x + i * CH * 1.04).toFixed(1)).join(';')}" calcMode="discrete" begin="${T.toFixed(2)}s" dur="${(dur + TYPE_SPEED).toFixed(2)}s" fill="freeze"/>` +
+      `<set attributeName="opacity" to="0" begin="${(T + dur + AFTER_CMD * 0.6).toFixed(2)}s" fill="freeze"/></rect>`);
+    T += dur + AFTER_CMD;
+  };
+  const comment = (t) => show(textEl([[`# ${t}`, C.muted]], { size: 12 }));
+  const divider = () => {
+    y += 16;
+    T += AFTER_BLOCK;
+    show(`<line x1="0" x2="${W}" y1="${y}" y2="${y}" stroke="${C.line}"/>`);
+    y += 30;
+  };
 
   // ---- title bar
   y = 38 + 34;
@@ -107,9 +141,6 @@ function buildSvg(posts) {
   prompt('neofetch');
   y += 14;
   const logoTop = y + 34; // 오른쪽 정보 블록과 세로 중앙 정렬
-  LOGO.forEach((l, i) => {
-    out.push(`<text x="${PADX}" y="${logoTop + i * 19}" font-size="15" font-weight="600" fill="${C.purple}" xml:space="preserve">${esc(l)}</text>`);
-  });
   const infoX = PADX + 290, labelW = 72;
   const info = [
     ['Role',   'Backend Engineer', C.fg],
@@ -118,17 +149,24 @@ function buildSvg(posts) {
     ['Study',  'Georgia Tech OMSCS · AI', C.fg],
     ['Blog',   BLOG_URL.replace('https://', ''), C.blue],
   ];
+  // 로고와 정보가 한 줄씩 나란히 출력
+  LOGO.forEach((l, i) => {
+    show(`<text x="${PADX}" y="${logoTop + i * 19}" font-size="15" font-weight="600" fill="${C.purple}" xml:space="preserve">${esc(l)}</text>`, T + i * LINE_GAP);
+  });
   let iy = y - 4;
-  out.push(`<text x="${infoX}" y="${iy}" font-size="14" font-weight="600"><tspan fill="${C.green}">lima</tspan><tspan fill="${C.muted}">@</tspan><tspan fill="${C.green}">github</tspan></text>`);
+  show(`<text x="${infoX}" y="${iy}" font-size="14" font-weight="600"><tspan fill="${C.green}">lima</tspan><tspan fill="${C.muted}">@</tspan><tspan fill="${C.green}">github</tspan></text>`);
+  T += LINE_GAP;
   iy += 18;
-  out.push(`<text x="${infoX}" y="${iy}" font-size="14" fill="${C.muted}">────────────────────────</text>`);
+  show(`<text x="${infoX}" y="${iy}" font-size="14" fill="${C.muted}">────────────────────────</text>`);
   info.forEach(([k, v, col]) => {
     iy += LH;
-    out.push(`<text x="${infoX}" y="${iy}" font-size="14"><tspan fill="${C.yellow}">${esc(k)}</tspan><tspan x="${infoX + labelW}" fill="${col}">${esc(v)}</tspan></text>`);
+    T += LINE_GAP;
+    show(`<text x="${infoX}" y="${iy}" font-size="14"><tspan fill="${C.yellow}">${esc(k)}</tspan><tspan x="${infoX + labelW}" fill="${col}">${esc(v)}</tspan></text>`);
   });
   y = iy + 22;
+  T += LINE_GAP;
   const swatch = [C.red, C.yellow, C.green, C.blue, C.purple, C.muted];
-  swatch.forEach((c, i) => out.push(`<rect x="${infoX + i * 34}" y="${y - 12}" width="34" height="14" fill="${c}"/>`));
+  swatch.forEach((c, i) => show(`<rect x="${infoX + i * 34}" y="${y - 12}" width="34" height="14" fill="${c}"/>`, T + i * 0.04));
   y += 6;
   divider();
 
@@ -183,9 +221,10 @@ function buildSvg(posts) {
   });
   divider();
 
-  // ---- cursor
-  out.push(`<text x="${PADX}" y="${y}" font-size="14" xml:space="preserve"><tspan fill="${C.green}">➜ </tspan><tspan fill="${C.blue}">~ </tspan></text>`);
-  out.push(`<rect x="${PADX + 4 * CH}" y="${y - 13}" width="${CH}" height="17" fill="${C.fg}"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>`);
+  // ---- 마지막 프롬프트 + 깜빡이는 커서
+  show(textEl([['➜ ', C.green], ['~ ', C.blue]]));
+  out.push(`<rect x="${PADX + 4 * CH}" y="${y - 13}" width="${CH}" height="17" fill="${C.fg}" opacity="0">` +
+    `<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="${T.toFixed(2)}s" repeatCount="indefinite"/></rect>`);
   y += 26;
 
   const H = Math.ceil(y);
