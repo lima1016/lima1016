@@ -146,7 +146,7 @@ function buildSvg(posts) {
     ['Role',   'Backend Engineer', C.fg],
     ['Uptime', uptime(),           C.fg],
     ['Focus',  'Event-driven · MSA', C.fg],
-    ['Study',  'Georgia Tech OMSCS · AI', C.fg],
+    ['Study',  'Georgia Tech · AI', C.fg],
     ['Blog',   BLOG_URL.replace('https://', ''), C.blue],
   ];
   // 로고와 정보가 한 줄씩 나란히 출력
