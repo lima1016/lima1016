@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1056" viewBox="0 0 860 1056" role="img" aria-label="lima@github terminal profile">
+<style>text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'D2Coding', monospace}</style>
+<defs><clipPath id="r"><rect width="860" height="1056" rx="12"/></clipPath></defs>
+<g clip-path="url(#r)">
+<rect width="860" height="1056" fill="#0d1117"/>
+<rect width="860" height="38" fill="#161b22"/>
+<line x1="0" x2="860" y1="38" y2="38" stroke="#30363d"/>
+<circle cx="22" cy="19" r="6" fill="#ff5f56"/><circle cx="42" cy="19" r="6" fill="#ffbd2e"/><circle cx="62" cy="19" r="6" fill="#27c93f"/>
+<text x="430" y="24" font-size="12" fill="#7d8590" text-anchor="middle">lima@github: ~</text>
+<text x="32" y="72" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">neofetch</tspan></text>
+<text x="32" y="120" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve"> _     ___ __  __    _    </text>
+<text x="32" y="139" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |   |_ _|  \/  |  / \   </text>
+<text x="32" y="158" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |    | || |\/| | / _ \  </text>
+<text x="32" y="177" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">| |___ | || |  | |/ ___ \ </text>
+<text x="32" y="196" font-size="15" font-weight="600" fill="#d2a8ff" xml:space="preserve">|_____|___|_|  |_/_/   \_\</text>
+<text x="322" y="82" font-size="14" font-weight="600"><tspan fill="#3fb950">lima</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#3fb950">github</tspan></text>
+<text x="322" y="100" font-size="14" fill="#7d8590">────────────────────────</text>
+<text x="322" y="124" font-size="14"><tspan fill="#e3b341">Role</tspan><tspan x="394" fill="#e6edf3">Backend Engineer</tspan></text>
+<text x="322" y="148" font-size="14"><tspan fill="#e3b341">Uptime</tspan><tspan x="394" fill="#e6edf3">5 years, 11 months</tspan></text>
+<text x="322" y="172" font-size="14"><tspan fill="#e3b341">Focus</tspan><tspan x="394" fill="#e6edf3">Event-driven · MSA</tspan></text>
+<text x="322" y="196" font-size="14"><tspan fill="#e3b341">Study</tspan><tspan x="394" fill="#e6edf3">Georgia Tech OMSCS · AI</tspan></text>
+<text x="322" y="220" font-size="14"><tspan fill="#e3b341">Blog</tspan><tspan x="394" fill="#58a6ff">lima1016.tistory.com</tspan></text>
+<rect x="322" y="230" width="34" height="14" fill="#ff7b72"/>
+<rect x="356" y="230" width="34" height="14" fill="#e3b341"/>
+<rect x="390" y="230" width="34" height="14" fill="#3fb950"/>
+<rect x="424" y="230" width="34" height="14" fill="#58a6ff"/>
+<rect x="458" y="230" width="34" height="14" fill="#d2a8ff"/>
+<rect x="492" y="230" width="34" height="14" fill="#7d8590"/>
+<line x1="0" x2="860" y1="264" y2="264" stroke="#21262d"/>
+<text x="32" y="294" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 기술 스택</tspan></text>
+<text x="32" y="318" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">cat stack.yml</tspan></text>
+<text x="32" y="342" font-size="14" xml:space="preserve"><tspan fill="#ff7b72" font-weight="600">language:</tspan><tspan x="132.8" fill="#ff7b72">Java</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ff7b72">Python</tspan></text>
+<text x="32" y="366" font-size="14" xml:space="preserve"><tspan fill="#3fb950" font-weight="600">framework:</tspan><tspan x="132.8" fill="#3fb950">Spring Boot</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">Spring Cloud</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#3fb950">MyBatis</tspan></text>
+<text x="32" y="390" font-size="14" xml:space="preserve"><tspan fill="#e3b341" font-weight="600">messaging:</tspan><tspan x="132.8" fill="#e3b341">Kafka</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#e3b341">RSocket</tspan></text>
+<text x="32" y="414" font-size="14" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">database:</tspan><tspan x="132.8" fill="#58a6ff">PostgreSQL</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">Redis</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">MongoDB</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#58a6ff">OpenSearch</tspan></text>
+<text x="32" y="438" font-size="14" xml:space="preserve"><tspan fill="#d2a8ff" font-weight="600">devops:</tspan><tspan x="132.8" fill="#d2a8ff">Docker</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">GitLab CI/CD</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Jenkins</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#d2a8ff">Nginx</tspan></text>
+<text x="32" y="462" font-size="14" xml:space="preserve"><tspan fill="#ffa657" font-weight="600">tools:</tspan><tspan x="132.8" fill="#ffa657">IntelliJ</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Postman</tspan><tspan fill="#7d8590">, </tspan><tspan fill="#ffa657">Jira</tspan></text>
+<line x1="0" x2="860" y1="478" y2="478" stroke="#21262d"/>
+<text x="32" y="508" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 경력</tspan></text>
+<text x="32" y="532" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">git log --oneline career</tspan></text>
+<text x="32" y="556" font-size="14" xml:space="preserve"><tspan fill="#e3b341">a3f9c21</tspan><tspan x="107.60000000000001" fill="#58a6ff">(HEAD)</tspan><tspan x="174.8" fill="#e6edf3">Backend Engineer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">GIT</tspan></text>
+<text x="32" y="580" font-size="14" xml:space="preserve"><tspan fill="#e3b341">7b2e4d0</tspan><tspan x="174.8" fill="#e6edf3">EDR Backend</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">AhnLab</tspan></text>
+<text x="32" y="604" font-size="14" xml:space="preserve"><tspan fill="#e3b341">1c8a5f3</tspan><tspan x="174.8" fill="#e6edf3">Backend Developer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">지어소프트</tspan></text>
+<line x1="0" x2="860" y1="620" y2="620" stroke="#21262d"/>
+<text x="32" y="650" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 프로젝트</tspan></text>
+<text x="32" y="674" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">docker ps</tspan></text>
+<text x="32" y="698" font-size="14" xml:space="preserve"><tspan fill="#7d8590">NAME</tspan><tspan x="158" fill="#7d8590">STATUS</tspan><tspan x="267.20000000000005" fill="#7d8590">DESCRIPTION</tspan></text>
+<text x="32" y="722" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">cosmos</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">NASA data platform · MSA</tspan></text>
+<text x="32" y="746" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">bull-talk</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Real-time stock chat</tspan></text>
+<text x="32" y="770" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">eat-burn</tspan><tspan x="158" fill="#3fb950">● Up</tspan><tspan x="267.20000000000005" fill="#e6edf3">Food vision + LLM nutrition</tspan></text>
+<text x="32" y="794" font-size="14" xml:space="preserve"><tspan fill="#58a6ff">study_alone</tspan><tspan x="158" fill="#e3b341">● Learning</tspan><tspan x="267.20000000000005" fill="#e6edf3">Always studying</tspan></text>
+<line x1="0" x2="860" y1="810" y2="810" stroke="#21262d"/>
+<text x="32" y="840" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 최근 블로그 글 (자동 갱신)</tspan></text>
+<text x="32" y="864" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">tail -n 5 blog.log</tspan></text>
+<text x="32" y="888" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.08</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; AI Agent 구조-2</tspan></text>
+<text x="32" y="912" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.05</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터01 - RAG &amp; Agent 구조 개념-1</tspan></text>
+<text x="32" y="936" font-size="14" xml:space="preserve"><tspan fill="#7d8590">11.01</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터09 - 실습과 프로젝트</tspan></text>
+<text x="32" y="960" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.28</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터08 - 과적합과 일반</tspan></text>
+<text x="32" y="984" font-size="14" xml:space="preserve"><tspan fill="#7d8590">10.24</tspan><tspan x="99.2" fill="#e6edf3">[AI] 챕터07 - 대표 알고리즘</tspan></text>
+<line x1="0" x2="860" y1="1000" y2="1000" stroke="#21262d"/>
+<text x="32" y="1030" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan></text>
+<rect x="65.6" y="1017" width="8.4" height="17" fill="#e6edf3"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="0.5" y="0.5" width="859" height="1055" rx="12" fill="none" stroke="#30363d"/>
+</svg>
