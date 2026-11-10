@@ -35,7 +35,7 @@ const STACK = [
 const CAREER = [
   { hash: 'a3f9c21', head: true, role: 'Backend Engineer',  at: 'GIT' },
   { hash: '7b2e4d0',             role: 'EDR Backend',       at: 'AhnLab' },
-  { hash: '1c8a5f3',             role: 'Backend Developer', at: '지어소프트' },
+  { hash: '1c8a5f3',             role: 'Backend Developer', at: 'Gaeasoft' },
 ];
 
 const PROJECTS = [

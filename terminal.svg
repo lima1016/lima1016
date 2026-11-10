@@ -40,7 +40,7 @@
 <text x="32" y="532" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">git log --oneline career</tspan></text>
 <text x="32" y="556" font-size="14" xml:space="preserve"><tspan fill="#e3b341">a3f9c21</tspan><tspan x="107.60000000000001" fill="#58a6ff">(HEAD)</tspan><tspan x="174.8" fill="#e6edf3">Backend Engineer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">GIT</tspan></text>
 <text x="32" y="580" font-size="14" xml:space="preserve"><tspan fill="#e3b341">7b2e4d0</tspan><tspan x="174.8" fill="#e6edf3">EDR Backend</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">AhnLab</tspan></text>
-<text x="32" y="604" font-size="14" xml:space="preserve"><tspan fill="#e3b341">1c8a5f3</tspan><tspan x="174.8" fill="#e6edf3">Backend Developer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">지어소프트</tspan></text>
+<text x="32" y="604" font-size="14" xml:space="preserve"><tspan fill="#e3b341">1c8a5f3</tspan><tspan x="174.8" fill="#e6edf3">Backend Developer</tspan><tspan x="342.8" fill="#7d8590">@ </tspan><tspan fill="#e6edf3">Gaeasoft</tspan></text>
 <line x1="0" x2="860" y1="620" y2="620" stroke="#21262d"/>
 <text x="32" y="650" font-size="12" xml:space="preserve"><tspan fill="#7d8590"># 프로젝트</tspan></text>
 <text x="32" y="674" font-size="14" xml:space="preserve"><tspan fill="#3fb950">➜ </tspan><tspan fill="#58a6ff">~ </tspan><tspan fill="#e6edf3">docker ps</tspan></text>
